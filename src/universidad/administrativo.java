@@ -16,8 +16,47 @@ public class administrativo extends personal{
         resultado = mostrarinfo()+"\t"+cargo+"\t"+fechaContrato;
         return resultado;
     }
+
     public void setCargo(String cargo) {
         this.cargo = cargo;
     }
+
+    public void setFechaContrato(String fechaContrato) {
+        this.fechaContrato = fechaContrato;
+    }
+
+    @Override
+    public void setTipoDcumento(String tipoDcumento) {
+        this.tipoDcumento = tipoDcumento;
+    }
+
+    @Override
+    public void setDocumento(String documento) {
+        this.documento = documento;
+    }
+
+    /**
+     *
+     * @param apellidos
+     */
+    @Override
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    @Override
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
+    }
+
+    @Override
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public void setActivo(boolean activo) {
+        this.activo = activo;
+    }
+    
     
 }

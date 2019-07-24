@@ -1,6 +1,6 @@
 package universidad;
 
-public class personal 
+public class personal
 {
     protected String tipoDcumento, documento, apellidos, nombres;
     protected int edad;
@@ -24,6 +24,21 @@ public class personal
             estado = "inactivo";
         resultado = tipoDcumento+"\t"+documento+"\t"+apellidos+"\t"+nombres+"\t"+edad+"\t"+estado;
         return resultado;
+    }
+    public void setTipoDcumento(String tipoDcumento) {
+        this.tipoDcumento = tipoDcumento;
+    }
+
+    public void setDocumento(String documento) {
+        this.documento = documento;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
     }
 
     public void setEdad(int edad) {

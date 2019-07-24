@@ -15,4 +15,10 @@ public class catedratico extends docente{
         resultado = mostrarinfo()+"\t"+profesion+"\t"+asignatura+"\t"+fechaInicio+"\t"+fechaFin;
         return resultado;
     }
+
+    @Override
+    public void setDocumento(String documento) {
+        this.documento = documento;
+    }
+    
 }

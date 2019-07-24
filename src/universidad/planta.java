@@ -19,5 +19,11 @@ public class planta extends docente {
         String resultado="";
         resultado = mostrarinfo()+"\t"+profesion+"\t"+asignatura+"\t"+fechaContrato+"\t"+cantProyectos;
         return resultado;
-    }   
+    }
+
+    @Override
+    public void setDocumento(String documento) {
+        this.documento = documento;
+    }
+    
 }

@@ -15,7 +15,7 @@ public class alumnos extends personal{
     }
     public String mostrar()
     {
-        String resultado ="";
+        String resultado =" ";
         resultado = mostrarinfo()+"\t"+codigo+"\t"+facultad+"\t"+programa+"\t"+semestre;
         return resultado;
     }
@@ -34,6 +34,36 @@ public class alumnos extends personal{
 
     public void setSemestre(int semestre) {
         this.semestre = semestre;
+    }
+
+    @Override
+    public void setTipoDcumento(String tipoDcumento) {
+        this.tipoDcumento = tipoDcumento;
+    }
+
+    @Override
+    public void setDocumento(String documento) {
+        this.documento = documento;
+    }
+
+    @Override
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    @Override
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
+    }
+
+    @Override
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    @Override
+    public void setActivo(boolean activo) {
+        this.activo = activo;
     }
     
 }
