@@ -1,5 +1,8 @@
 package universidad;
-
+/**
+ * 
+ * @author BAÑO Y MELENDEZ
+ */
 public class planta extends docente {
     private String fechaContrato;
     private int cantProyectos;

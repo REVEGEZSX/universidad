@@ -1,5 +1,9 @@
 package universidad;
 import java.util.*;
+/**
+ * 
+ * @author BAÑO Y MELENDEZ
+ */
 public class Universidad {
     public static ArrayList <alumnos> AL = new ArrayList();
     public static ArrayList <administrativo> AD = new ArrayList();

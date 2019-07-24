@@ -1,5 +1,8 @@
 package universidad;
-
+/**
+ * 
+ * @author BAÑO Y MELENDEZ
+ */
 public class administrativo extends personal{
     private String cargo;
     private String fechaContrato;

@@ -1,5 +1,8 @@
 package universidad;
-
+/**
+ * 
+ * @author BAÑO Y MELENDEZ
+ */
 public class alumnos extends personal{
     private String codigo;
     private String facultad;

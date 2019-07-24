@@ -1,5 +1,8 @@
 package universidad;
-
+/**
+ * 
+ * @author BAÑO Y MELENDEZ
+ */
 public class personal
 {
     protected String tipoDcumento, documento, apellidos, nombres;

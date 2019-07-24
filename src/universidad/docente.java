@@ -1,5 +1,8 @@
 package universidad;
-
+/**
+ * 
+ * @author BAÑO Y MELENDEZ
+ */
 public class docente extends personal{
     protected String profesion;
     protected String asignatura;

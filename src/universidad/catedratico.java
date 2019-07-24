@@ -1,5 +1,8 @@
 package universidad;
-
+/**
+ * 
+ * @author BAÑO Y MELENDEZ
+ */
 public class catedratico extends docente{
     private String fechaInicio;
     private String fechaFin;
